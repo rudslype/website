@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <title>Tafeltennis </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="keywords" content="Tafeltennis, pingpong, Jean-Michel">
+    <!--<meta name="description" content=" ... ">-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="ugent.css">
+</head>
+
+<form action="https://formspree.io/f/mgebypgl" method="post">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <h1>Wedstrijdformulier tafeltennis Deslyper Rutger</h1>
+
+                <h2 id="navmenu">Navigatiemenu</h2>
+
+                <header>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="wedstrijdformulier.html">wedstrijdformulier</a></li>
+                            <li><a href="index.html#paragraaf3">spelregels</a></li>
+                            <!--nog fixen dak eerst naar index ga en dan naar de spelregels-->
+                            <li><a
+                                    href="https://worldtabletennis.com/allplayersranking?Age=SENIOR&selectedTab=MEN%27S%20SINGLES">wereldranking
+                                    bij de mannen</a></li>
+                            <li><a
+                                    href="https://worldtabletennis.com/allplayersranking?selectedTab=WOMEN%27S%20SINGLES&Age=SENIOR">wereldranking
+                                    bij de vrouwen</a></li>
+                        </ul>
+                    </nav>
+                </header>
+
+                <fieldset>
+                    <legend>persoonlijke informatie</legend>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required placeholder="Voornaam.Naam@UGent.be">
+
+                    <label for="birthdate">Geboortedatum:</label>
+                    <input type="date" id="birthdate" name="birthdate">
+
+                    <br><label for="famnaam">Familienaam:</label>
+                    <input type="text" id="famnaam" name="familienaam" required>
+
+                    <label for="Nationality">Land van afkomst</label>
+                    <select name="Nationality" id="Nationality">
+                        <option value="BEL">België</option>
+                        <option value="NEP">Nepal</option>
+                        <option value="BRA">Brazilië</option>
+                        <option value="AND">Andere</option>
+                    </select>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Tafeltennis</legend>
+                    <div class="form-group">
+                        <label>Wie wordt beschouwd als de beste Belgische tafeltennisser aller tijden?</label>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="form-check">
+                                    <input type="radio" id="marten" name="best_belgian_player" value="marten"
+                                        class="form-check-input">
+                                    <label for="marten" class="form-check-label">Marten Van Riel</label>
+                                    <div class="form-check-image">
+                                        <img src="afbeeldingen/marten.jpg" alt="Marten Van Riel" class="rounded">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="form-check">
+                                    <input type="radio" id="magnus" name="best_belgian_player" value="magnus"
+                                        class="form-check-input">
+                                    <label for="magnus" class="form-check-label">Magnus Carlsen</label>
+                                    <div class="form-check-image">
+                                        <img src="afbeeldingen/carlsen.jpg" alt="Magnus Carlsen" class="rounded">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="form-check">
+                                    <input type="radio" id="jean" name="best_belgian_player" value="jean"
+                                        class="form-check-input">
+                                    <label for="jean" class="form-check-label">Jean-Michel Saive</label>
+                                    <div class="form-check-image">
+                                        <img src="afbeeldingen/saive.jpg" alt="Jean-Michel Saive" class="rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <br><label>Wat heb je allemaal nodig vooraleer je kan pingpongen?</label>
+
+                    <input name="benodigd_materiaal" id="palet" type="checkbox" value="palet">
+                    <label for="palet">palet</label>
+                    <input name="benodigd_materiaal" id="stylo" type="checkbox" value="stylo">
+                    <label for="stylo">stylo</label>
+                    <input name="benodigd_materiaal" id="balletje" type="checkbox" value="balletje">
+                    <label for="balletje">balletje</label>
+                    <input name="benodigd_materiaal" id="tafel_en_net" type="checkbox" value="tafel_en_net">
+                    <label for="tafel_en_net">tafel en net</label>
+                    <input name="benodigd_materiaal" id="GSM" type="checkbox" value="GSM">
+                    <label for="GSM">gsm</label>
+
+                    <br><label>Hoe veel keer mag de speler (in het normale geval) opslaan vooraleer het aan de
+                        tegenstander is om op te slaan?</label>
+                    <input type="radio" name="opslagvraag" id="1" value="1">
+                    <label for="1">1 keer</label>
+                    <input type="radio" name="opslagvraag" id="2" value="2">
+                    <label for="2">2 keer</label>
+                    <input type="radio" name="opslagvraag" id="3" value="3">
+                    <label for="3">3 keer</label>
+                    <input type="radio" name="opslagvraag" id="4" value="4">
+                    <label for="4">4 keer</label>
+
+                    <br><label for="mening">Wat vind je van de sport?</label>
+                    <br><textarea id="mening" name="mening" cols="60" rows="10"></textarea>
+                </fieldset>
+
+
+                <input type="reset" value="Reset">
+                <input type="submit" value="verstuur">
+            </div>
+        </div>
+    </div>
+
+</form>
+
+
+<br>
+<footer id="footer">
+    <span class="left">&#169;Rutger Deslyper</span>
+    <span class="right"><time datetime="2023-03-04">4 maart 2023</time></span>
+</footer>
+
+</html>

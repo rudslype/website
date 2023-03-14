@@ -1,0 +1,99 @@
+#naam:hover {
+  background-color: rgb(255, 210, 0);
+}
+
+/*opdracht 8, mag mbv ID*/
+
+ol {
+  list-style-type: none;
+}
+
+#navmenu {
+  color: red;
+}
+
+section figcaption {
+  font-style: italic;
+}
+
+dl dt {
+  font-style: normal;
+}
+
+dl dd {
+  font-style: italic;
+}
+
+
+#tabel {
+  border: 2px solid rgb(30, 100, 200);
+  padding: 40px;
+  margin-left: 15px;
+  margin-top: 10px;
+  width: 40%;
+  text-transform: lowercase;
+  font-variant: small-caps;
+  float: left;
+}
+
+#footer {
+  background-color: rgb(30, 100, 200);
+  /*kleurcode UGENT (commentaar slash ster- tekst - ster slash*/
+  color: white;
+  padding: 10px;
+  overflow: auto;
+}
+
+.ugentwoorden {
+  color: rgb(30, 100, 200);
+}
+
+/*ugentwoorden, opdracht 7 mag mbv selector zijn*/
+
+.left {
+  float: left
+}
+
+footer span.right {
+  float: right;
+}
+
+fieldset {
+  border: none;
+}
+
+input[type="email"]::placeholder {
+  font-size: 14px;
+}
+
+/* width: 250px;
+} dit is beter nr mijn mening ofwel placeholder tekst verkleinen of vak vergroten, gekozen voor tekst verkleinen*/
+
+legend {
+  color: red;
+}
+
+aside {
+  border-style: dotted;
+  border-color: rgb(30, 100, 200);
+  padding: 10px;
+  float: right;
+  width: 30%;
+  font-variant: small-caps;
+  margin-left: 15px;
+}
+
+#footer {
+  clear: both;
+}
+
+/*.option-image {
+  display: inline-block;
+  margin-left: 10px; 
+  vertical-align: middle; 
+  width: 100px; 
+  height: 100px; 
+  object-fit: cover; 
+}nie meer nodig nrml*/
+
+/*fotos fixen*/
